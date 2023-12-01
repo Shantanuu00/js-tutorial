@@ -39,6 +39,9 @@ console.log(typeof myFunction);
 //typeof null is object
 
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//Stack(Primitives) ,Heap(Non-Primitives)
+
 
 
 

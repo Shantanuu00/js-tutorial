@@ -41,6 +41,41 @@ console.log(typeof myFunction);
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 //Stack(Primitives) ,Heap(Non-Primitives)
+//In Stack there copy is passed
+//In heap , reference is there so original is changed
+
+let myYoutubename="hiteshchoudharydotcom"
+let anothername=myYoutubename
+anothername="ChaiaurCode"
+console.log(myYoutubename);
+console.log(anothername);
+//Here when you create an new varible another name, copy is passed of hiteshchoudhary is passed
+//so copy of hitesh choudhary dot com is assigned to another name
+//when we assign chaiaurcode to anothername, another name is changed
+//thererfore copy is changed
+//original hiteshchoudharydotcom of myYoutubename is same.
+
+
+
+
+let userOne={
+    emailId:"üser@google.com",
+    upi:"user@ybl"
+
+}
+
+let userTwo =userOne;
+//both user one and user two are pointing to same object in heap
+//So if you changed any element of user two...Original object is changed
+//eg if i changed email of usertwo and original there is change in original object
+
+
+
+
+
+
+
+
 
 
 

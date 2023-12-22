@@ -13,7 +13,7 @@
 const id=Symbol('123')
 const anotherEmail=Symbol('123')
 
-console.log(id===anotherEmail);
+//console.log(id===anotherEmail);
 
 //reference(Non primitives)
 //Arrays,Objects,Functions
@@ -27,7 +27,7 @@ let myObj={
 }
 
 const myFunction=function(){
-    console.log("Hello World")
+console.log("Hello World")
 }
 
 //DataType of null is always object

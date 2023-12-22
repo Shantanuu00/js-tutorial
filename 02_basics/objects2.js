@@ -70,9 +70,9 @@ console.log(instructor);
 
 //JSON 
 {
-    "name"="hitesh",
-    "coursename"="Js in hindi",
-    "price"="free"
+    //"name"="hitesh",
+    //"coursename"="Js in hindi",
+    //"price"="free"
 }
 //both side are in string format
 
